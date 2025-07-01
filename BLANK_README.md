@@ -42,8 +42,6 @@
     <a href="https://github.com/dev-gaitano/firebase-notes-I"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/dev-gaitano/firebase-notes-I">View Demo</a>
-    &middot;
     <a href="https://github.com/dev-gaitano/firebase-notes-I /issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     &middot;
     <a href="https://github.com/dev-gaitano/firebase-notes-I/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
@@ -84,7 +82,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started. To avoid retyping too much info, do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`, `project_license`
+In a world filled with cluttered interfaces and overwhelming features, Ascend.up takes a different approach. We believe that great ideas deserve a beautiful, uncluttered space to grow. Our mission is to create a notes app that gets out of your way and lets your creativity shine.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -222,7 +220,7 @@ Distributed under the project_license. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Eugene Gaitano - [@twitter_handle](https://twitter.com/twitter_handle) - dev.gaitano@gmail.com
+Eugene Gaitano - [@GaitanoDev](https://x.com/GaitanoDev) - dev.gaitano@gmail.com
 
 Project Link:
 [https://github.com/dev-gaitano/firebase-notes-I](https://github.com/dev-gaitano/firebase-notes-I)
