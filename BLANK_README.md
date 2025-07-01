@@ -31,15 +31,13 @@
 <br />
 <div align="center">
   <a href="https://github.com/dev-gaitano/firebase-notes-I">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://i.pinimg.com/736x/57/d8/4b/57d84b93155cdcdfdbd7cc611e3f0886.jpg" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Ascend.up</h3>
 
   <p align="center">
-    Ascend.up is a clean, minimal notes app built for focus and flow. Write, organize, and revisit your thoughts anytime.
-    <br />
-    <a href="https://github.com/dev-gaitano/firebase-notes-I"><strong>Explore the docs »</strong></a>
+    A clean, minimal notes app built for focus and flow.
     <br />
     <br />
     <a href="https://github.com/dev-gaitano/firebase-notes-I /issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
