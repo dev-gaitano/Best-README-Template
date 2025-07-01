@@ -30,23 +30,23 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
+  <a href="https://github.com/dev-gaitano/firebase-notes-I">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Ascend.up</h3>
 
   <p align="center">
-    project_description
+    Ascend.up is a clean, minimal notes app built for focus and flow. Write, organize, and revisit your thoughts anytime.
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/dev-gaitano/firebase-notes-I"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://github.com/dev-gaitano/firebase-notes-I">View Demo</a>
     &middot;
-    <a href="https://github.com/github_username/repo_name/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    <a href="https://github.com/dev-gaitano/firebase-notes-I /issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     &middot;
-    <a href="https://github.com/github_username/repo_name/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="https://github.com/dev-gaitano/firebase-notes-I/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
 
@@ -60,6 +60,7 @@
       <a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
+        <li><a href="project-structure">Project Structure</a></li>
       </ul>
     </li>
     <li>
@@ -69,12 +70,10 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -95,12 +94,45 @@ Here's a blank template to get started. To avoid retyping too much info, do a se
 
 * [![Next][Next.js]][Next-url]
 * [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+### Project Structure
+
+```
+firebase-notes-I/
+├── extensions/              # Firebase Extensions directory
+├── functions/               # Cloud Functions directory
+│   ├── node_modules/        # Functions dependencies
+│   ├── .eslintrc.js        # Functions linting configuration
+│   ├── index.js            # Main functions code
+│   ├── package.json        # Functions package configuration
+│   └── package-lock.json   # Functions dependency lock file
+├── public/                 # Firebase Hosting static files
+│   ├── assets/             # Static assets (images, fonts, etc.)
+│   ├── css/                # Stylesheets
+│   │   └── style.css       # Main stylesheet
+│   ├── js/                 # Client-side JavaScript
+│   │   ├── app.js          # Main application logic
+│   │   └── firebase-config.js # Firebase initialization
+│   └── index.html          # Main HTML file
+├── .firebaserc             # Firebase project configuration
+├── .git/                   # Git repository data
+├── .gitignore              # Git ignore rules
+├── LICENSE.md              # Project license
+├── README.md               # Project documentation
+├── database.rules.json     # Realtime Database security rules
+├── firebase.json           # Firebase configuration file
+├── firestore.indexes.json  # Firestore index definitions
+├── firestore.rules         # Firestore security rules
+├── node_modules/           # Root project dependencies
+├── package.json            # Root package configuration
+├── package-lock.json       # Root dependency lock file
+├── remoteconfig.template.json # Remote Config template
+└── storage.rules           # Cloud Storage security rules
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -109,48 +141,32 @@ Here's a blank template to get started. To avoid retyping too much info, do a se
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
+This is an example of how you may approach setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-5. Change git remote url to avoid accidental pushes to base project
-   ```sh
-   git remote set-url origin github_username/repo_name
-   git remote -v # confirm the changes
-   ```
+Clone this repo and push changes. 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Follow these steps:
 
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone https://github.com/dev-gaitano/firebase-notes-I.git
 
+# Step 2: Navigate to the project directory.
+cd firebase-notes-I
 
-<!-- USAGE EXAMPLES -->
-## Usage
+# Step 3: Install the necessary dependencies.
+npm i
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npx serve public
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -159,12 +175,12 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+- [ ] Add/edit Notes
+- [ ] Filter & Sort Notes
+- [ ] Search Functionality
+- [ ] Firebase Implementation
+    - [ ] Firestore Database
+    - [ ] User Authentication
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -188,8 +204,8 @@ Don't forget to give the project a star! Thanks again!
 
 ### Top contributors:
 
-<a href="https://github.com/github_username/repo_name/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=github_username/repo_name" alt="contrib.rocks image" />
+<a href="https://github.com/dev-gaitano/firebase-notes-I/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=dev-gaitano/firebase-notes-I" alt="contrib.rocks image" />
 </a>
 
 
@@ -197,7 +213,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-Distributed under the project_license. See `LICENSE.txt` for more information.
+Distributed under the project_license. See `LICENSE` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -206,20 +222,10 @@ Distributed under the project_license. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Eugene Gaitano - [@twitter_handle](https://twitter.com/twitter_handle) - dev.gaitano@gmail.com
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* []()
-* []()
-* []()
+Project Link:
+[https://github.com/dev-gaitano/firebase-notes-I](https://github.com/dev-gaitano/firebase-notes-I)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -227,18 +233,18 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo_name/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo_name/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo_name/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/dev-gaitano/firebase-notes-I.svg?style=for-the-badge
+[contributors-url]: https://github.com/dev-gaitano/firebase-notes-I/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/dev-gaitano/firebase-notes-I.svg?style=for-the-badge
+[forks-url]: https://github.com/dev-gaitano/firebase-notes-I/network/members
+[stars-shield]: https://img.shields.io/github/stars/dev-gaitano/firebase-notes-I.svg?style=for-the-badge
+[stars-url]: https://github.com/dev-gaitano/firebase-notes-I/stargazers
+[issues-shield]: https://img.shields.io/github/issues/dev-gaitano/firebase-notes-I.svg?style=for-the-badge
+[issues-url]: https://github.com/dev-gaitano/firebase-notes-I/issues
+[license-shield]: https://img.shields.io/github/license/dev-gaitano/firebase-notes-I.svg?style=for-the-badge
+[license-url]: https://github.com/dev-gaitano/firebase-notes-I/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
+[linkedin-url]: https://www.linkedin.com/in/eugene-gaitano
 [product-screenshot]: images/screenshot.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
